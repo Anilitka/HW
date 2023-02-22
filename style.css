@@ -7,7 +7,7 @@ body{
     position: relative;
 }
 .div1{
-    height: 100vh;
+    min-height: 100vh;
 }
 .box{
     margin-left: 50px;
@@ -22,7 +22,7 @@ body{
 }
 
 .div2{
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(248, 198, 0, 0.71);
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ border-radius: 5px;
 }
 
 .div3{
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 50px;
     margin-left: 20px;
 }
