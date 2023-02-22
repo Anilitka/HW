@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.div1{
+    height: 100vh;
+}
+.box{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(33, 159, 33);
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.div2{
+    height: 100vh;
+    background-color: rgba(248, 198, 0, 0.71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myinp input{
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all .6s ease-in;
+    border: none;
+
+}
+.myinp{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.myinp label{
+    position: absolute;
+    font-size: 25px;
+    color: #9d9c9c;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+.myinp input{
+   padding-left: 5px;
+   color: rgba(248, 182, 0, 0.71);
+   font-size: 16px;
+   outline:none;
+   outline-offset: 0
+
+}
+
+
+.myinp input.active{
+width: 200px;
+border-radius: 5px;
+}
+.myinp .underline{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 10px;
+    left: 5px;
+    width: 0;
+    background-color: rgba(248, 182, 0, 0.71);
+    transition: all .6s ease;
+}
+.underline.active{
+    width: 85%;
+}
+
+.div3{
+    height: 100vh;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.div3 h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn3{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(230, 41, 72, 0.492);
+    box-shadow: 0px 0px 4px 4px rgba(230, 41, 72, 0.492);
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+}
